@@ -59,17 +59,20 @@ table{
   border: 2px solid black;
 }
 
+table *{
+  padding: 15px;
+}
 table td{
   border-top: 2px solid #000000;
   text-align: center;
   vertical-align: middle;
-  padding: 15px;
+  /* padding: 15px; */
 }
 tbody th{
   border-top: 2px solid #000000;
   text-align: center;
   vertical-align: middle;
-  padding: 15px;
+  /* padding: 15px; */
 }
 .colhead{
   background-color: #7e0820;
@@ -121,4 +124,7 @@ footer{
   min-height: 75px;
   position: fixed;
   bottom: 0px;
+}
+footer p{
+  padding-bottom: 0px;
 }
