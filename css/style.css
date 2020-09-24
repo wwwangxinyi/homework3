@@ -60,7 +60,7 @@ table{
 }
 
 table *{
-  padding: 15px;
+  padding: 10px;
 }
 table td{
   border-top: 2px solid #000000;
@@ -88,9 +88,6 @@ tbody th{
   border-right: 2px solid #000000;
 }
 
-tr:hover{
-  background-color: rgb(126, 8, 32,.25);
-}
 
 .odd{
   background-color: #d1d1d1;
@@ -98,6 +95,10 @@ tr:hover{
 
 .even{
   background-color: transparent;
+}
+
+tr:hover{
+  background-color: rgba(126, 8, 32,.25);
 }
 
 #left_top_edge{
