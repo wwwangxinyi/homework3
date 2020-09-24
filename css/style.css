@@ -25,7 +25,7 @@ main{
 }
 
 h1{
-  color: #690C2C;
+  color: #c12258;
   font-size: 2em;
   text-align: center;
 }
@@ -40,7 +40,7 @@ p{
 
 a{
   font-size: 16px;
-  color: #B92751;
+  color: #b21f50;
   text-decoration-style: wavy;
 }
 
@@ -86,7 +86,7 @@ tbody th{
 }
 
 tr:hover{
-  background-color: rgb(126, 8, 48,.25);
+  background-color: rgb(126, 8, 32,.25);
 }
 
 .odd{
@@ -119,6 +119,6 @@ footer{
   text-align:center;
   color: #FFFFFF;
   min-height: 75px;
-  /* position: fixed;
-  bottom: 0px; */
+  position: fixed;
+  bottom: 0px;
 }
